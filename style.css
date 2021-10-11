@@ -1,0 +1,239 @@
+body {
+    font-family: 'Open Sans', san-serif;
+    background-color: #101010 !important;
+}
+
+.titulo1 {
+    font-weight: 800;
+    padding-top: 17px;
+}
+
+p, h1, h4, span {
+    color: #d0cd26;
+}
+
+.bloco {
+    margin-bottom: 10px !important;
+}
+
+.fundo1 {
+    background-image: url(images/ban.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 150px 50px 60px 50px;
+    color: black;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.fundo2 {
+    background-color: #2a2e47;
+}
+
+.fundo3 {
+    background-color: #1c1e2a;
+    padding: 100px 20px;
+    
+}
+
+.fundo4 {
+    padding: 150px 50px;
+    background-color: #534e9c;
+    display: flex;
+    column-gap: 300px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(
+        45deg
+        , black, transparent);
+}
+.fundo5{
+    padding: 70px 50px;
+    color: #7e7e7e;    
+}
+
+.fundo5-paragrafo-final {
+    color: #7e7e7e;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.fundo3-wrapper {
+    display: flex;
+    column-gap: 300px;
+    justify-content: space-around;
+}
+
+.fundo5-wrapper {
+    display: flex;
+    column-gap: 300px;
+    justify-content: space-between;
+}
+
+.community-image-wrapper {
+    width: 300px;
+    height: 300px;
+    box-shadow: -15px -15px 25px #0095ff;
+}
+
+.reviews-image-wrapper {
+    width: 520px;
+    height: 290px;
+    box-shadow: -15px -15px 25px #0095ff;
+}
+
+.community-image-wrapper img, .reviews-image-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-fundo5-wrapper {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+}
+
+.social-img-wrapper {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-around;
+}
+
+.p1 {
+    max-width: 550px;
+    margin: 10px auto 45px auto;
+    text-shadow: 1px 1px blue;
+}
+
+.botao1 {
+    padding: 10px 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    text-decoration: none;
+    font-size: 12px 0px;
+    font-weight: bold;
+}
+
+.descricao {
+
+}
+
+
+
+.coluna2 {
+    padding: 20px;
+}
+
+.fundocoluna2 {
+    padding: 30px;
+    background-color: #1c1e2a;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+.titutlo3 {
+    font-weight: 800;
+}
+
+.fundocoluna3a {
+    background-image: url(images/tt.jpg);
+}
+
+.fundocoluna3b {
+    background-image: url(hall.jpg);
+}
+
+.fundocoluna3c {
+    background-image: url(caverna.jpg);
+}
+
+.fundoformat {
+    border-radius: 5px;
+    font-size: 12px;
+    color: black;
+    padding: 300px 20px 20px 20px;
+}
+
+.botao2 {
+    padding: 10px 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.titulo4 {
+    margin: 20px auto 25px auto;
+    font-size: 20px;
+}
+
+
+
+.titulo5 {
+    margin: 20px auto 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.p2 {
+    font-size: 13px;
+    text-align: center;
+    max-width: 1100px;
+    padding: 10px 20px auto 20px;
+}
+
+
+.limitador {
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+.limiteimg {
+    max-width: 100%;
+}
+
+.cards-wrapper {
+    width: 100%;
+    margin: 0 5px;
+    padding: 100px;    
+}
+
+.child-card {
+    width: 200px !important;
+    border: solid 1px white;
+    border-radius: 4%;
+    box-shadow: 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content-wrapper {
+    
+}
+
+.card-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+img {
+    width: 55px;
+    height: 50px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+    color: #7e7e7e;
+}
