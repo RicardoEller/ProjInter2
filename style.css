@@ -6,14 +6,21 @@ body {
 .titulo1 {
     font-weight: 800;
     padding-top: 17px;
+    
 }
 
-p, h1, h4, span {
+h1, h4{
     color: #d0cd26;
 }
 
-.bloco {
-    margin-bottom: 10px !important;
+h2{
+    color: #d0cd26;
+    height: 140px;
+    font-size: 60px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: #d0cd26;
 }
 
 .fundo1 {
@@ -28,25 +35,26 @@ p, h1, h4, span {
 }
 
 .fundo2 {
-    background-color: #2a2e47;
+    background-color: #183052;
+    padding-top: 50px;
 }
 
 .fundo3 {
-    background-color: #1c1e2a;
-    padding: 100px 20px;
+    background-color: #121b27;
+    padding-top: 90px;
+    padding-bottom: 20px;
+
     
 }
 
 .fundo4 {
     padding: 150px 50px;
-    background-color: #534e9c;
+    background-color: #121b27;
     display: flex;
-    column-gap: 300px;
+    column-gap: 200px;
     justify-content: space-around;
     flex-direction: row-reverse;
-    background-image: linear-gradient(
-        45deg
-        , black, transparent);
+ 
 }
 .fundo5{
     padding: 70px 50px;
@@ -72,20 +80,20 @@ p, h1, h4, span {
 }
 
 .community-image-wrapper {
-    width: 300px;
+    width: 600px;
+    height: 300px;
+    box-shadow: 15px -15px 25px #0095ff;
+}
+
+.reviews-image-wrapper {
+    width: 600px;
     height: 300px;
     box-shadow: -15px -15px 25px #0095ff;
 }
 
-.reviews-image-wrapper {
-    width: 520px;
-    height: 290px;
-    box-shadow: -15px -15px 25px #0095ff;
-}
-
 .community-image-wrapper img, .reviews-image-wrapper img {
-    width: 100%;
-    height: 100%;
+    width: 600px;
+    height: 300px;
 }
 
 .content-fundo5-wrapper {
@@ -106,6 +114,7 @@ p, h1, h4, span {
     text-shadow: 1px 1px blue;
 }
 
+
 .botao1 {
     padding: 10px 20px;
     border-width: 3px;
@@ -125,6 +134,7 @@ p, h1, h4, span {
 
 .coluna2 {
     padding: 20px;
+    width: 600px;
 }
 
 .fundocoluna2 {
@@ -191,6 +201,14 @@ p, h1, h4, span {
     padding: 10px 20px auto 20px;
 }
 
+.p3 {
+    font-size: 50px;
+    max-width: 550px;
+    margin: 10px auto 45px auto;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 .limitador {
     max-width: 1000px;
@@ -236,4 +254,22 @@ a, a:hover, a:focus, a:active {
     text-decoration: none !important;
     color: inherit !important;
     color: #7e7e7e;
+}
+
+.botao3 {
+    padding: 10px 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    text-decoration: none;
+    font-size: 12px 0px;
+    font-weight: bold;
+}
+
+.lista{
+    color:red;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: oblique;
 }
