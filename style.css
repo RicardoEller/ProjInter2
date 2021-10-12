@@ -82,14 +82,15 @@ p{
 .community-image-wrapper {
     width: 600px;
     height: 300px;
-    box-shadow: 15px -15px 25px #0095ff;
+    box-shadow: 15px -15px 3px #0095ff;
 }
 
 .reviews-image-wrapper {
     width: 600px;
     height: 300px;
-    box-shadow: -15px -15px 25px #0095ff;
+    box-shadow: -15px -15px 3px #0095ff;
 }
+
 
 .community-image-wrapper img, .reviews-image-wrapper img {
     width: 600px;
